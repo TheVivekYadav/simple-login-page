@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+    transition: 400ms;
+  }
+  body {
+    height: 100vh;
+    background-color: #9b2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  div.container {
+    background-color: #fff;
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px #ee6565;
+    border-radius: 0.5rem;
+}
+  div.container .child {
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  div.heading {
+    font-size: 3rem;
+    font-family: Buffalo;
+  }
+  input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    padding-bottom: 0.6rem;
+    width: 100%;
+    padding-left: 1px;
+  }
+  div.forget-password {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  div.forget-password a {
+    text-decoration: none;
+    color: #000;
+  }
+  div.buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttons div {
+    text-align: center;
+    width: 100%;
+    padding: 1.2rem;
+    font-family: arial;
+  }
+  .register {
+    background-color: #a0aec0;
+  }
+  .sign-in {
+    background-color: #000;
+    color: #fff;
+  }
+  .buttons div:hover {
+    cursor: pointer;
+  }
+  
