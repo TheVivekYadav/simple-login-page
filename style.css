@@ -31,8 +31,8 @@
   }
   div.heading {
     font-size: 3rem;
-    font-family: Buffalo;
-  }
+    font-weight: 600;
+}
   input {
     border: none;
     outline: none;
@@ -60,12 +60,15 @@
     width: 100%;
     padding: 1.2rem;
     font-family: arial;
-  }
+    font-weight: 600;
+}
   .register {
     background-color: #a0aec0;
-  }
+    border-bottom-left-radius: 0.5rem;
+}
   .sign-in {
     background-color: #000;
+    border-bottom-right-radius: 0.5rem;
     color: #fff;
   }
   .buttons div:hover {
